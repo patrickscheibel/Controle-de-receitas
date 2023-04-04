@@ -9,13 +9,13 @@ apt install php php-xml php-mysql
 ### Composer
 
 ```sh
-$ sudo apt install composer
+apt install composer
 ```
 
 ### Docker Compose(Opcional)
 
 ```sh
-$ sudo apt install docker-compose
+apt install docker-compose
 ```
 
 ## Instalar dependências
@@ -23,7 +23,7 @@ $ sudo apt install docker-compose
 ```sh
 composer install
 ```
-Utilizei migration para o banco de dados, mas caso seja necessário, o script com o sql está na pasta database.
+Utilizei as migrations para o banco de dados, mas caso seja necessário o script com o sql está na pasta database.
 
 ### Criar e executar o banco pelo docker-compose(Opcional)
 
