@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+  mysql-db:
+    container_name: mysql_bd
+    image: mysql:latest
+    environment:
+      MYSQL_DB: 'my_db'
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3306:3306'
+    volumes:
+      - my_db:/var/lib/mysql
+    networks:
+      - mysql
+networks:
+    mysql:
+        driver: bridge
+volumes:
+   my_db:
