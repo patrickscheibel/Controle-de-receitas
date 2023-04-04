@@ -23,5 +23,5 @@ Como alguns recursos não estavam funcionando, acabei optando por não fazer a o
 
 ### Observações:
 
-Nas migrações utilizei um sql convencional para criar as tabelas já que optei por usar o MySQL.
-Pode parecer que faltou muita coisa para concluir o desafio, mas vale lembrar que o backend ficou completo, ficando pendente só fazer as demais requisições para as telas, que eram cadastros que iriam chamar as rotas da API.
+- Nas migrações utilizei um sql convencional para criar as tabelas já que optei por usar o MySQL.
+- Pode parecer que faltou muita coisa para concluir o desafio, mas vale lembrar que o backend ficou completo, ficando pendente só fazer as demais requisições para as telas, que eram cadastros que iriam chamar as rotas da API.
